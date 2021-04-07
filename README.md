@@ -20,7 +20,7 @@ manifests에 android.permission.INTERNET 추가시켜준다.
  ```java
   private Socket socket;{
         try {
-            socket = IO.socket("http://192.168.0.187:4002");
+            socket = IO.socket("url");
         }catch (URISyntaxException e) {}
     }
  ```
